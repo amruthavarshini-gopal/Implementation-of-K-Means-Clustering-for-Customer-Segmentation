@@ -1,13 +1,17 @@
 # Implementation-of-K-Means-Clustering-for-Customer-Segmentation
 
-## AIM:
+## Aim:
+
 To write a program to implement the K Means Clustering for Customer Segmentation.
 
 ## Equipments Required:
+
 1. Hardware – PCs
+
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
+## Algorithm:
+
 1.Start by importing the required libraries (pandas, matplotlib.pyplot, KMeans from sklearn.cluster).
 
 2.Load the Mall_Customers.csv dataset into a DataFrame.
@@ -32,22 +36,16 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 ```
 /*
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: AmruthaVarshini Gopal
+Developed by: Amruthavarshini Gopal
 RegisterNumber:  212223230013
 import pandas as pd
 import matplotlib.pyplot as plt
 data=pd.read_csv("Mall_Customers.csv")
 data.head()
-
 data.info()
-
 data.isnull().sum()
-
 from sklearn.cluster import KMeans
 wcss=[]
-print("Name:A.Lahari")
-print("Reg.No:212223230111")
-
 for i in range(1,11):
     kmeans=KMeans(n_clusters=i,init="k-means++")
     kmeans.fit(data.iloc[:,3:])
@@ -80,21 +78,27 @@ plt.title("Customer Segments")
 ```
 
 ## Output:
+
 ![Screenshot 2025-05-22 140556](https://github.com/user-attachments/assets/acd8e3e8-3988-4924-b499-fe42dbede7da)
+
 ### df.head() and df.isnull().sum()
+
 ![Screenshot 2025-05-22 140625](https://github.com/user-attachments/assets/6e57773e-a30f-45c7-a2d0-07a6e7f202d8)
+
 ### df.info()
+
 ![Screenshot 2025-05-22 140647](https://github.com/user-attachments/assets/5f68e84e-38e3-436e-8a3b-9d9ba802b9a4)
+
 ### Kmeans
+
 ![Screenshot 2025-05-22 140714](https://github.com/user-attachments/assets/cf22af1c-a5bb-4c77-ba84-c4fc28b99da5)
+
 ### y_pred
+
 ![Screenshot 2025-05-22 140731](https://github.com/user-attachments/assets/d6b8cfba-1fea-4152-b293-e20e9d2dfb6f)
 ![Screenshot 2025-05-22 140756](https://github.com/user-attachments/assets/367a67da-f872-4096-ba12-6272e27a6cc5)
 
-
-
-
-
-
 ## Result:
+
+
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
