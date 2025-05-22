@@ -79,17 +79,20 @@ plt.title("Customer Segments")
 
 ## Output:
 
-![Screenshot 2025-05-22 140556](https://github.com/user-attachments/assets/acd8e3e8-3988-4924-b499-fe42dbede7da)
-
 ### df.head() and df.isnull().sum()
 
-![Screenshot 2025-05-22 140625](https://github.com/user-attachments/assets/6e57773e-a30f-45c7-a2d0-07a6e7f202d8)
+![Screenshot 2025-05-22 140556](https://github.com/user-attachments/assets/acd8e3e8-3988-4924-b499-fe42dbede7da)
 
 ### df.info()
 
-![Screenshot 2025-05-22 140647](https://github.com/user-attachments/assets/5f68e84e-38e3-436e-8a3b-9d9ba802b9a4)
+![Screenshot 2025-05-22 140625](https://github.com/user-attachments/assets/6e57773e-a30f-45c7-a2d0-07a6e7f202d8)
+
 
 ### Kmeans
+
+![Screenshot 2025-05-22 140647](https://github.com/user-attachments/assets/5f68e84e-38e3-436e-8a3b-9d9ba802b9a4)
+
+### Elbow Method
 
 ![Screenshot 2025-05-22 140714](https://github.com/user-attachments/assets/cf22af1c-a5bb-4c77-ba84-c4fc28b99da5)
 
@@ -99,6 +102,5 @@ plt.title("Customer Segments")
 ![Screenshot 2025-05-22 140756](https://github.com/user-attachments/assets/367a67da-f872-4096-ba12-6272e27a6cc5)
 
 ## Result:
-
 
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
